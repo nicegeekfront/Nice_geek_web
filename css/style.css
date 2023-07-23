@@ -132,7 +132,7 @@ body {
     align-items: center;
     justify-content: space-around;
     transform: translateX(120%);
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 .mobile__nav_active {
     transform: translateX(0);
@@ -149,15 +149,23 @@ body {
 .mobile__list_active {
     color: var(--background-color-green)!important;
 }
+.mobile__list a:hover {
+    color: var(--background-color-green);
+}
 .mobile__list a {
     font-size: 25px;
     color: white;
     padding: 10px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 .mobile__email a {
     font-size: 25px;
     color: white;
+    transition: all 0.3s ease-in-out;
+}
+.mobile__email a:hover {
+    color: var(--background-color-green);
 }
 
 .mobile__fade {
@@ -169,19 +177,21 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0);
-    z-index: -10;
-    display: block;
-    transition: all ease;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
 }
 
 .mobile__fade_open {
     background-color: rgba(0, 0, 0, 0.9);
-    display: block;
+    opacity: 1;
     z-index: 9;
 }
 
 .no__scroll {
-    overflow-y: hidden;
+    position: fixed;
+	overflow-y: scroll;
+	width: 100%;
 }
 
 
