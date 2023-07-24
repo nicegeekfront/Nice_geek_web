@@ -189,9 +189,8 @@ body {
 }
 
 .no__scroll {
-    position: fixed;
-	overflow-y: scroll;
-	width: 100%;
+    overflow-y: hidden;
+	padding-right: 17px;
 }
 
 
