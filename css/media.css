@@ -193,6 +193,9 @@
     .footer::before {
         display: none;
     }
+    .hero__main_anchor {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -237,6 +240,9 @@
     }
     .form__row {
         padding-bottom: 15px;
+    }
+    .hero__main_anchor {
+        margin-top: 30px;
     }
 }
 
@@ -415,6 +421,9 @@
     }
     .portfolio__projects_title {
         font-size: 12px;
+    }
+    .hero__main_anchor {
+        margin-top: 30px;
     }
 }
 
