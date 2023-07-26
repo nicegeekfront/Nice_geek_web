@@ -8,7 +8,7 @@
 
 @media (max-width: 1500px) {
     .hero__main_img {
-        right: 250px;
+        right: 0px;
     }
     .about__left img {
         width: 80%;
@@ -54,6 +54,19 @@
         padding: 0px 20px;
         padding-bottom: 70px;
     }
+    .hero__main_content {
+        padding-left: 20px;
+    }
+    .header__top {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1330px) {
+    .hero__main_img {
+        right: 100px;
+    }
 }
 
 @media (max-width: 1290px) {
@@ -67,7 +80,7 @@
         height: auto;
     }
     .header__top {
-        padding: 30px 15px;
+        padding: 30px 30px;
     }
 
 
@@ -138,7 +151,7 @@
     }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1095px) {
     .hero__main_img {
         display: none;
     }
@@ -236,6 +249,9 @@
     .footer__left  p {
         max-width: 200px;
     }
+    .hero__main_content {
+        padding-left: 0;
+    }
 }
 @media (max-width: 650px) {
     .hero__profession {
@@ -271,6 +287,13 @@
     }
     .about__left_item_one {
         display: none;
+    }
+    .hero__main_content {
+        padding-left: 0px;
+    }
+    .header__top {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -319,6 +342,7 @@
     .skills::after {
         display: none;
     }
+
 }
 
 @media (max-width: 450px) {
@@ -414,12 +438,6 @@
     }
 }
 
-@media (min-height: 1300px) {
-    .hero__main_img {
-        bottom: 300px
-    }
-}
-
 
 
 @media (max-height: 900px) {
@@ -472,15 +490,34 @@
         padding-top: 120px;
     }
     .hero__main_img img {
-        width: 60%;
+        width: 70%;
         height: auto;
     }
     .hero__item_four {
         display: none;
     }
+    .hero__item_five {
+        display: none;
+    }
+    .hero__item_three {
+        display: none;
+    }
+
+    .hero__main_img {
+        right: -10px;
+    }
+    .hero__main_anchor {
+        margin-top: 40px;
+    }
+
 
 }
 
+@media (min-height: 1170px) {
+    .hero {
+        min-height: 60vh;
+    }
+}
 @media (max-height: 640px) {
     .about__left img {
         width: 60%;
