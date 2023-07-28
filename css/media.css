@@ -451,7 +451,7 @@
 
 @media (max-height: 900px) {
     .hero__item_one {
-        display: none;
+        height: 500px;
     }
     .hero__img {
         width: 90%;
@@ -460,7 +460,6 @@
         right: 40px;
     }
 }
-
 @media (max-height: 870px) {
     .hero__email {
         display: none;
@@ -470,8 +469,6 @@
     }
 
 }
-
-
 
 @media (max-height: 828px) {
     .hero__email {
@@ -486,6 +483,9 @@
     }
     .about__left img {
         width: 70%;
+    }
+    .hero__item_one {
+        height: 400px;
     }
 }
 
@@ -518,12 +518,11 @@
     .hero__item_two {
         display: none;
     } 
-
-    .hero__main_img {
-        right: -10px;
-    }
     .hero__main_anchor {
         margin-top: 40px;
+    }
+    .hero__item_one {
+        display: none;
     }
 
 

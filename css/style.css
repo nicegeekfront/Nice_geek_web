@@ -48,10 +48,10 @@ body {
 /* Header styles  */
 
 .header {
-    min-height: 10vh;
     background-color: var(--background-color-dark);
     overflow: hidden;
     position: relative;
+    min-height: 10vh;
 }
 
 
@@ -231,7 +231,6 @@ body {
     font-weight: 700;
     line-height: 1.1;
     color: var(--background-color-green);
-    margin-bottom: 15px;
 }
 
 .hero__profession {
@@ -416,8 +415,8 @@ body {
 
 .hero__socials {
     position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+    top: 40%;
+    transform: translate(0, -40%);
     left: 30px;
     display: flex;
     flex-direction: column;
